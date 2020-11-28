@@ -9933,6 +9933,60 @@ footer p {
   box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
 }
 
+.page-auth .row-login {
+  min-height: 70vh;
+}
+
+.page-auth .store-auth h2 {
+  font-weight: 300;
+  font-size: 28px;
+  margin-top: 0;
+  color: #0C0D36;
+}
+
+.page-auth .store-auth .form-control {
+  border-radius: 8px;
+  background: #F3F3F3;
+}
+
+.page-auth .store-auth .btn-signup {
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+  color: #bbb;
+}
+
+.page-auth .store-auth .btn-signup:hover {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.page-auth .store-auth .btn-signup:focus, .page-auth .store-auth .btn-signup.focus {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.page-auth .store-auth .btn-signup.disabled, .page-auth .store-auth .btn-signup:disabled {
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+}
+
+.page-auth .store-auth .btn-signup:not(:disabled):not(.disabled):active, .page-auth .store-auth .btn-signup:not(:disabled):not(.disabled).active,
+.show > .page-auth .store-auth .btn-signup.dropdown-toggle {
+  color: #212529;
+  background-color: #dadada;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.page-auth .store-auth .btn-signup:not(:disabled):not(.disabled):active:focus, .page-auth .store-auth .btn-signup:not(:disabled):not(.disabled).active:focus,
+.show > .page-auth .store-auth .btn-signup.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
 .component-categories {
   background-color: #F4F4F4;
   border-radius: 8px;
